@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>***Экзамен</title>
+
+    </head>
+ 
+<style>
+body {background-image: url('fon_02.gif');}
+table {_float:left; margin:10px; padding:0; width:200px; border-collapse:collapse;}
+td {border:1px dotted blue; margin:0;padding:10px;height:5px;min-width:20px;}
+.header {font-family: Georgia; font-size: 2em; width:98%; text-align:center;}
+.footer {clear: both;text-align:center;width:98%;
+}
+
+
+div {margin: 2px; text-align:left; padding: 5px; background-color: hsl(210,50%,50%);}
+.menu {	font-family: Arial; width: 100%;
+ padding: 0; margin: 0;
+ list-style: none;
+}
+
+.menu > li {background-color: hsl(210,50%,50%); display: block; font-size: 16px; border: 0px solid;
+ padding: 10px; margin: 10px;}
+
+.menu{ text-decoration: none; color: white;
+}
+
+.first {font: 10pt Arial; font-style:italic;}
+.second {font: 10pt Georgia;}
+.third {font: 10pt Georgia; font-weight: bold; color: #800080;}
+.leftcol {
+    float: right; min-height: 200px; background-color: #ffffff;
+    
+}
+
+
+
+.rightcol {
+    float:left; 
+text-align:right; height: 100%;
+
+    min-height: 300px; background-color: #ddd;
+    
+}
+.pinline {display: block; width:30%; vertical-align:top;}
+
+
+</style>
+
+<body>
+
+    <div class="header"><!--*****************Логотип и шапка********************-->
+
+
+Выгрузка из базы данных
+	</div>
+
+
+
+ <div class="leftcol"><!--**************Основное содержание страницы************-->
+
+
+<table width="80%" class="pinline">
+<tr bgcolor="#dddddd">
+	<td>Кассир
+	<td>Пункт назначения
+	<td>Цена
+	<td>Количество
+	<td>Дата
+</tr>
+<tr bgcolor="#ffffff">
+	<td>X
+	<td>X
+	<td>X
+	<td>X
+	<td>X
+</tr>
+</table>
+<p class="first">
+Средняя цена билетов за указанный период: <b class="third">X</b><br>
+Максимальная сумма продажи: <b class="third">X</b><br>
+</p>
+
+	
+  </div>
+
+
+<div class="rightcol"><!--*******************Навигационное меню*******************-->
+ 
+  <ul class="menu">
+
+     	<li>Пункт назначения<br>
+<select name="item">
+<option>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</option>
+		</select></li>
+
+
+    	<li>Дата продажи<br>
+<select name="item">
+<option>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</option>
+		</select></li>
+
+
+<li>
+<input type="submit" value="Выгрузить данные">
+</li>
+
+   </ul>
+
+</div>
+
+
+
+<div class="footer"><!--*******************Подвал*******************-->
+
+&copy; Copyright 2018
+</div>
+
+</body>
+
+</html>
